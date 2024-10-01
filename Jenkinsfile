@@ -2,14 +2,14 @@ pipeline {
     agent { label 'build-agent' }
     environment {
         APP_NAME = "web-api"
-        IMAGE_NAME = 'spdx'
+        IMAGE_NAME = 'sdpx'
 
-        ROBOT_REPO = 'https://github.com/CE-RELATIONSHIP/jenkins-automate-testing'
+        ROBOT_REPO = 'https://github.com/CE-RELATIONSHIP/PRACTICE-automate-testing.git'
         ROBOT_BRANCH = 'main'
         ROBOT_FILE = 'unit_test.robot'
 
-        MAIN_REPO = 'https://https://github.com/CE-RELATIONSHIP/jenkins-assignment/'
-        MAIN_BRANCH = 'jenkins-pipeline-peqch-only'
+        MAIN_REPO = 'https://github.com/CE-RELATIONSHIP/PRACTICE-api.git'
+        MAIN_BRANCH = 'main'
 
         NAMESPACE = 'ce-relationship'
         GITHUB_CRED = credentials('github-registry')
