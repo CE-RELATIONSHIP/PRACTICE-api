@@ -2,7 +2,7 @@ pipeline {
     agent { label 'build-agent' }
     environment {
         APP_NAME = "web-api"
-        IMAGE_NAME = 'sdpx-practice'
+        IMAGE_NAME = 'sdpx'
 
         ROBOT_REPO = 'https://github.com/CE-RELATIONSHIP/PRACTICE-automate-testing.git'
         ROBOT_BRANCH = 'main'
