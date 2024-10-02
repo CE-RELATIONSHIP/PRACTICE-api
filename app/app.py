@@ -13,6 +13,7 @@ def is_prime(num):
     # with exactly two distinct positive divisors
     try:
         num = float(num)
+        print('test push')
         
         if (not num.is_integer() or num <= 1):
             return jsonify(False)
