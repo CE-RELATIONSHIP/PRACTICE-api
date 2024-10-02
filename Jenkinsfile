@@ -4,11 +4,11 @@ pipeline {
         APP_NAME = "web-api"
         IMAGE_NAME = 'sdpx'
 
-        ROBOT_REPO = 'https://github.com/CE-RELATIONSHIP/PRACTICE-automate-testing/'
+        ROBOT_REPO = 'https://github.com/CE-RELATIONSHIP/PRACTICE-automate-testing.git'
         ROBOT_BRANCH = 'main'
         ROBOT_FILE = 'unit_test.robot'
 
-        MAIN_REPO = 'https://github.com/CE-RELATIONSHIP/PRACTICE-api/'
+        MAIN_REPO = 'https://github.com/CE-RELATIONSHIP/PRACTICE-api.git'
         MAIN_BRANCH = 'main'
 
         NAMESPACE = 'ce-relationship'
